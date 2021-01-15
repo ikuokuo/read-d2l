@@ -1,16 +1,25 @@
 # [JupyterLab](https://jupyterlab.readthedocs.io/)
 
+<!--
+brew upgrade pyenv
+pyenv install -l | grep conda
+-->
+
 ## Installation
 
 ### conda
 
-```bash
+```zsh
 conda install -c conda-forge jupyterlab
+```
+
+```zsh
+jupyter --version
 ```
 
 #### Start
 
-```bash
+```zsh
 jupyter lab
 ```
 
@@ -18,7 +27,7 @@ jupyter lab
 
 ### Docker
 
-```bash
+```zsh
 docker pull jupyter/scipy-notebook:latest
 
 docker run -d --restart=always \
@@ -29,13 +38,19 @@ docker run -d --restart=always \
 jupyter/scipy-notebook:latest
 ```
 
+<!--
+docker update --restart=no jupyter
+
+docker exec -it jupyter jupyter --version
+-->
+
 Visit `http://localhost:8888/lab`.
 
 ![](images/jupyter_token.png)
 
 #### Token
 
-```bash
+```zsh
 ❯ docker logs jupyter
 Executing the command: jupyter lab
 [I 22:32:45.229 LabApp] Writing notebook server cookie secret to /home/jovyan/.local/share/jupyter/runtime/notebook_cookie_secret

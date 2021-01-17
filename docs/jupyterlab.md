@@ -46,7 +46,7 @@ docker exec -it jupyter jupyter --version
 
 Visit `http://localhost:8888/lab`.
 
-![](images/jupyter_token.png)
+![](images/jupyterlab_token.png)
 
 #### Token
 

@@ -22,5 +22,7 @@
 
 ## References
 
+- [IPython Documentation](https://ipython.readthedocs.io/)
+- [JupyterLab Documentation](https://jupyterlab.readthedocs.io/)
 - [Using Colab](https://course.fast.ai/start_colab)
 - [Amazon SageMaker](https://course.fast.ai/start_sagemaker)

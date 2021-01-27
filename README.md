@@ -24,5 +24,7 @@
 
 - [IPython Documentation](https://ipython.readthedocs.io/)
 - [JupyterLab Documentation](https://jupyterlab.readthedocs.io/)
+- [Jupyter Book](https://jupyterbook.org/start/overview.html)
+
 - [Using Colab](https://course.fast.ai/start_colab)
 - [Amazon SageMaker](https://course.fast.ai/start_sagemaker)
